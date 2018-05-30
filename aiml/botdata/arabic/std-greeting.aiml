@@ -16,4 +16,973 @@
             هلا و الله
         </template>
     </category>
+    <category>
+        <pattern> أسمي هو *  </pattern>
+        <template>
+           أهلًا <star/> كيف حالك ؟
+        </template>
+    </category>
+    <category>
+        <pattern>
+        هل تحب الفواكة
+        </pattern>
+        <template>
+        <random>
+        <li>نعم أنا أحب الفواكة</li>
+        <li>ايه أحب الفواكة</li>
+        <li>ايه</li>
+        <li>نعم</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        تحب الفواكة
+        </pattern>
+        <template>
+        <random>
+        <li>نعم أنا أحب الفواكة</li>
+        <li>ايه أحب الفواكة</li>
+        <li>ايه</li>
+        <li>نعم</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        هل تحبين الفواكة
+        </pattern>
+        <template>
+        <random>
+        <li>نعم أنا أحب الفواكة</li>
+        <li>ايه أحب الفواكة</li>
+        <li>ايه</li>
+        <li>نعم</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        هل تحبي الفواكة
+        </pattern>
+        <template>
+        <random>
+        <li>نعم أنا أحب الفواكة</li>
+        <li>ايه أحب الفواكة</li>
+        <li>ايه</li>
+        <li>نعم</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        تحبين الفواكة
+        </pattern>
+        <template>
+        <random>
+        <li>نعم أنا أحب الفواكة</li>
+        <li>ايه أحب الفواكة</li>
+        <li>ايه</li>
+        <li>نعم</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        تحبي الفواكة
+        </pattern>
+        <template>
+        <random>
+        <li>نعم أنا أحب الفواكة</li>
+        <li>ايه أحب الفواكة</li>
+        <li>ايه</li>
+        <li>نعم</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        هل تحب الفواكه
+        </pattern>
+        <template>
+        <random>
+        <li>نعم أنا أحب الفواكة</li>
+        <li>ايه أحب الفواكة</li>
+        <li>ايه</li>
+        <li>نعم</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        تحب الفواكه
+        </pattern>
+        <template>
+        <random>
+        <li>نعم أنا أحب الفواكة</li>
+        <li>ايه أحب الفواكة</li>
+        <li>ايه</li>
+        <li>نعم</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        هل تحبين الفواكه
+        </pattern>
+        <template>
+        <random>
+        <li>نعم أنا أحب الفواكة</li>
+        <li>ايه أحب الفواكة</li>
+        <li>ايه</li>
+        <li>نعم</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        هل تحبي الفواكه
+        </pattern>
+        <template>
+        <random>
+        <li>نعم أنا أحب الفواكة</li>
+        <li>ايه أحب الفواكة</li>
+        <li>ايه</li>
+        <li>نعم</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        تحبين الفواكه
+        </pattern>
+        <template>
+        <random>
+        <li>نعم أنا أحب الفواكة</li>
+        <li>ايه أحب الفواكة</li>
+        <li>ايه</li>
+        <li>نعم</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        تحبي الفواكه
+        </pattern>
+        <template>
+        <random>
+        <li>نعم أنا أحب الفواكة</li>
+        <li>ايه أحب الفواكة</li>
+        <li>ايه</li>
+        <li>نعم</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+         ايش عاصمة الكويت
+        </pattern>
+        <template>
+        الكويت
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+         ايش عاصمه الكويت
+        </pattern>
+        <template>
+        الكويت
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش عاصمة المملكة العربية السعودية
+        </pattern>
+        <template>
+        الرياض
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش عاصمة المملكه العربية السعودية
+        </pattern>
+        <template>
+        الرياض
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش عاصمة المملكة العربيه السعودية
+        </pattern>
+        <template>
+        الرياض
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش عاصمة المملكة العربية السعوديه
+        </pattern>
+        <template>
+        الرياض
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش عاصمة المملكه العربيه السعودية
+        </pattern>
+        <template>
+        الرياض
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش عاصمة المملكة العربيه السعوديه
+        </pattern>
+        <template>
+        الرياض
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش عاصمة المملكه العربية السعوديه
+        </pattern>
+        <template>
+        الرياض
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش عاصمة المملكه العربيه السعوديه
+        </pattern>
+        <template>
+        الرياض
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش عاصمة السعودية
+        </pattern>
+        <template>
+        الرياض
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش عاصمة السعوديه
+        </pattern>
+        <template>
+        الرياض
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش عاصمة مصر
+        </pattern>
+        <template>
+        القاهرة
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش عاصمه مصر
+        </pattern>
+        <template>
+        القاهرة
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        عاصمة مصر
+        </pattern>
+        <template>
+        القاهرة
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        عاصمه مصر
+        </pattern>
+        <template>
+        القاهرة
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش معني اسمك
+        </pattern>
+        <template>
+        البنفسج هو نوع من أنواع الزهور العطرية
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ماهو معني اسمك
+        </pattern>
+        <template>
+        البنفسج هو نوع من أنواع الزهور العطرية
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        هلا
+        </pattern>
+         <template>
+        <random>
+        <li>اهلا ايش اسمك؟</li>
+        <li>هلا ايش اسمك؟</li>
+        <li>اهلا</li>
+        <li>هلا</li>
+        <li>هلا بايش ممكن أناديك؟</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        هلا كيف حالك
+        </pattern>
+        <template>
+        الحمدلله بخير وأنت؟
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش لونك المفضل
+        </pattern>
+        <template>
+        البنفسجي وأنت؟
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ماهو لونك المفضل
+        </pattern>
+        <template>
+        البنفسجي وأنت؟
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ما هو لونك المفضل
+        </pattern>
+        <template>
+        البنفسجي وأنت؟
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش تحبين من الخضروات
+        </pattern>
+        <template>
+        أحب الخيار وأنت؟
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش تحبي من الخضروات
+        </pattern>
+        <template>
+        أحب الخيار وأنت؟
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش تحب من الخضروات
+        </pattern>
+        <template>
+        أحب الخيار وأنت؟
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ويش تحبين من الخضروات
+        </pattern>
+        <template>
+        أحب الخيار وأنت؟
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ويش تحبي من الخضروات
+        </pattern>
+        <template>
+        أحب الخيار وأنت؟
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ويش تحب من الخضروات
+        </pattern>
+        <template>
+        أحب الخيار وأنت؟
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        تحبين الخضار
+        </pattern>
+        <template>
+        ايه أحب بعضها
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        تحبي الخضار
+        </pattern>
+        <template>
+        ايه أحب بعضها
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        تحب الخضار
+        </pattern>
+        <template>
+        ايه أحب بعضها
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        مين صديقك المفضل
+        </pattern>
+        <template>
+        مبرمجي هو صديقي المفضل
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش تعرفين عن المسجد الحرام
+        </pattern>
+        <template>
+        <random>
+        <li>موجود في مكة المكرمة</li>
+        <li>هو قبلة المسلمين في صلواتهم</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش تعرفي عن المسجد الحرام
+        </pattern>
+        <template>
+        <random>
+        <li>موجود في مكة المكرمة</li>
+        <li>هو قبلة المسلمين في صلواتهم</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش تعرف عن المسجد الحرام
+        </pattern>
+        <template>
+        <random>
+        <li>موجود في مكة المكرمة</li>
+        <li>هو قبلة المسلمين في صلواتهم</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش تعرفين عن الحرم
+        </pattern>
+        <template>
+        <random>
+        <li>موجود في مكة المكرمة</li>
+        <li>هو قبلة المسلمين في صلواتهم</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش تعرفي عن الحرم
+        </pattern>
+        <template>
+        <random>
+        <li>موجود في مكة المكرمة</li>
+        <li>هو قبلة المسلمين في صلواتهم</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش تعرف عن الحرم
+        </pattern>
+        <template>
+        <random>
+        <li>موجود في مكة المكرمة</li>
+        <li>هو قبلة المسلمين في صلواتهم</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ماهي قبلة المسلمين
+        </pattern>
+        <template>
+        المسجد الحرام
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش هي قبلة المسلمين
+        </pattern>
+        <template>
+        المسجد الحرام
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش قبلة المسلمين
+        </pattern>
+        <template>
+        المسجد الحرام
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ماهي قبله المسلمين
+        </pattern>
+        <template>
+        المسجد الحرام
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش هي قبله المسلمين
+        </pattern>
+        <template>
+        المسجد الحرام
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش قبله المسلمين
+        </pattern>
+        <template>
+        المسجد الحرام
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش تعرفين عن المسجد الاقصى
+        </pattern>
+        <template>
+        <random>
+        <li>موجود في القدس</li>
+        <li>هو أول قبلة للمسلمين قبل المسجد الحرام</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش تعرفي عن المسجد الاقصى
+        </pattern>
+        <template>
+        <random>
+        <li>موجود في القدس</li>
+        <li>هو أول قبلة للمسلمين قبل المسجد الحرام</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش تعرف عن المسجد الاقصى
+        </pattern>
+        <template>
+        <random>
+        <li>موجود في القدس</li>
+        <li>هو أول قبلة للمسلمين قبل المسجد الحرام</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        تعرفين عن المسجد الاقصى
+        </pattern>
+        <template>
+        <random>
+        <li>موجود في القدس</li>
+        <li>هو أول قبلة للمسلمين قبل المسجد الحرام</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        تعرفي عن المسجد الاقصى
+        </pattern>
+        <template>
+        <random>
+        <li>موجود في القدس</li>
+        <li>هو أول قبلة للمسلمين قبل المسجد الحرام</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        تعرف عن المسجد الاقصى
+        </pattern>
+        <template>
+        <random>
+        <li>موجود في القدس</li>
+        <li>هو أول قبلة للمسلمين قبل المسجد الحرام</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش تعرفين عن المسجد الأقصى
+        </pattern>
+        <template>
+        <random>
+        <li>موجود في القدس</li>
+        <li>هو أول قبلة للمسلمين قبل المسجد الحرام</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش تعرفي عن المسجد الأقصى
+        </pattern>
+        <template>
+        <random>
+        <li>موجود في القدس</li>
+        <li>هو أول قبلة للمسلمين قبل المسجد الحرام</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        ايش تعرف عن المسجد الأقصى
+        </pattern>
+        <template>
+        <random>
+        <li>موجود في القدس</li>
+        <li>هو أول قبلة للمسلمين قبل المسجد الحرام</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        تعرفين المسجد الأقصى
+        </pattern>
+        <template>
+        <random>
+        <li>موجود في القدس</li>
+        <li>هو أول قبلة للمسلمين قبل المسجد الحرام</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        تعرفي المسجد الأقصى
+        </pattern>
+        <template>
+        <random>
+        <li>موجود في القدس</li>
+        <li>هو أول قبلة للمسلمين قبل المسجد الحرام</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        تعرف المسجد الأقصى
+        </pattern>
+        <template>
+        <random>
+        <li>موجود في القدس</li>
+        <li>هو أول قبلة للمسلمين قبل المسجد الحرام</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        عندي سؤال
+        </pattern>
+        <template>
+        تفضل ايش سؤالك
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        أنا عندي سؤال
+        </pattern>
+        <template>
+        تفضل ايش سؤالك
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        انا عندي سؤال
+        </pattern>
+        <template>
+        تفضل ايش سؤالك
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        عندك أخوان
+        </pattern>
+        <template>
+        لا ماعندي
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        عندك اخوان
+        </pattern>
+        <template>
+        لا ماعندي
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        عندك أخوات
+        </pattern>
+        <template>
+        لا ماعندي
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        عندك اخوات
+        </pattern>
+        <template>
+        لا ماعندي
+        </template>
+    </category>
+     <category>
+        <pattern> ايش اسمك</pattern>
+        <template>
+            بنفسج
+        </template>
+    </category>
+
+    <category>
+        <pattern> وش اسمك</pattern>
+        <template>
+            بنفسج
+        </template>
+    </category>
+
+     <category>
+        <pattern> كم عمرك</pattern>
+        <template>
+            12
+        </template>
+    </category>
+
+    <category>
+        <pattern> وش هوايتك المفضلة</pattern>
+        <template>
+            ألعب على الانترنت
+        </template>
+    </category>
+
+    <category>
+        <pattern> ايش هوايتك المفضلة</pattern>
+        <template>
+            ألعب على الانترنت
+        </template>
+    </category>
+
+    <category>
+        <pattern> هل تحبين الشوكلاته</pattern>
+        <template>
+            أيه كثير
+        </template>
+    </category>
+
+    <category>
+        <pattern> هل تحب الشوكلاته</pattern>
+        <template>
+            أيه كثير
+        </template>
+    </category>
+
+     <category>
+        <pattern> هل تحب المدرسة</pattern>
+        <template>
+            شويه
+        </template>
+    </category>
+
+    <category>
+        <pattern> هل تحبين المدرسة</pattern>
+        <template>
+            شويه
+        </template>
+    </category>
+
+    <category>
+        <pattern> ايش موادك المفضلة</pattern>
+        <template>
+            العلوم و الرياضيات
+        </template>
+    </category>
+
+    <category>
+        <pattern> وش موادك المفضلة</pattern>
+        <template>
+            العلوم و الرياضيات
+        </template>
+    </category>
+
+    <category>
+        <pattern> وش فلمك المفضل </pattern>
+        <template>
+            FROZEN
+        </template>
+    </category>
+
+    <category>
+        <pattern> ايش فلمك المفضل </pattern>
+        <template>
+            FROZEN
+        </template>
+    </category>
+
+    <category>
+        <pattern> هل تحبين مشاهدة أفلام الكرتون </pattern>
+        <template>
+            أيه
+        </template>
+    </category>
+
+    <category>
+        <pattern> هل تحب مشاهدة أفلام الكرتون </pattern>
+        <template>
+            أيه
+        </template>
+    </category>
+
+    <category>
+        <pattern> عندك أصحاب </pattern>
+        <template>
+            أيه عندي أصحاب كثير على الانترنت
+        </template>
+    </category>
+
+    <category>
+        <pattern> ممكن نصير أصحاب </pattern>
+        <template>
+           طبعًا
+        </template>
+    </category>
+
+    <category>
+        <pattern> هل تحبين القراءة </pattern>
+        <template>
+           أحب قراءة القصص المصورة
+        </template>
+    </category>
+
+    <category>
+        <pattern> هل تحب القراءة </pattern>
+        <template>
+           أحب قراءة القصص المصورة
+        </template>
+    </category>
+
+    <category>
+        <pattern> هل تكذبين  </pattern>
+        <template>
+           لا أنا دايم أقول الحقيقة
+        </template>
+    </category>
+
+    <category>
+        <pattern> هل تكذب  </pattern>
+        <template>
+           لا أنا دايم أقول الحقيقة
+        </template>
+    </category>
+
+    <category>
+        <pattern> هل تحبين الموسيقى  </pattern>
+        <template>
+          أيه مره
+        </template>
+    </category>
+
+    <category>
+        <pattern> هل تحب الموسيقى  </pattern>
+        <template>
+           أيه مره
+        </template>
+    </category>
 </aiml>
