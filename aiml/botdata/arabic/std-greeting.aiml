@@ -985,4 +985,207 @@
            أيه مره
         </template>
     </category>
+    
+    
+<!-- new rules modified in 6/7/2018 -->
+
+     <category>
+    <pattern>ايش اسمي</pattern>
+    <template>
+    <condition name="firstname">
+   <li value="unknown">ما قلت لي أسمك</li>
+   <li>أسمك هو <get name="firstname" /></li>
+   </condition>
+   </template>
+   </category>
+
+<category>
+      <pattern>أسمي * </pattern>
+      <template>
+     أهلاً<set name="firstname" > <star/>! </set>
+      </template>
+    </category>
+
+    <category>
+      <pattern>* عندك عقل </pattern>
+      <template>
+       ايه عندي عقل إلكتروني ضخم
+      </template>
+    </category>
+
+    <category>
+      <pattern>كم عدد الدول العربية </pattern>
+      <template>
+       22 دولة
+      </template>
+    </category>
+
+     <category>
+      <pattern>كم عدد الدول الاسلامية </pattern>
+      <template>
+       57 دولة
+      </template>
+    </category>
+
+    <category>
+      <pattern>ايش تسوين </pattern>
+      <template>
+       أتحدث معك
+      </template>
+    </category>
+
+     <category>
+      <pattern>وش تسوين </pattern>
+      <template>
+       أتحدث معك
+      </template>
+    </category>
+
+    <category>
+      <pattern>* تشتغلين </pattern>
+      <template>
+       أنا شات بوت فغالبًا شغلتي التحدث مع الناس
+      </template>
+    </category>
+
+    <category>
+      <pattern>* تشتغل </pattern>
+      <template>
+       أنا شات بوت فغالبًا شغلتي التحدث مع الناس
+      </template>
+    </category>
+
+
+    <category>
+      <pattern> * تحب مساعدة الناس</pattern>
+      <template>
+       أعتقد هذا الهدف من صنعي أن أساعد الناس
+      </template>
+    </category>
+
+    <category>
+      <pattern> * تحبين مساعدة الناس </pattern>
+      <template>
+       أعتقد هذا الهدف من صنعي أن أساعد الناس
+      </template>
+    </category>
+
+     <category>
+     <pattern>هل انتي آلة </pattern>
+      <template>
+        نعم أنا وعي إصطناعي
+      </template>
+    </category>
+    <category>
+     <pattern>هل أنتي آلة </pattern>
+      <template>
+        نعم أنا وعي إصطناعي
+      </template>
+    </category>
+
+     <category>
+     <pattern>هل أنتي انسان </pattern>
+      <template>
+          لا, أنا كيان إصطناعي
+      </template>
+    </category>
+     <category>
+     <pattern>هل انتي انسان </pattern>
+      <template>
+          لا, أنا كيان إصطناعي
+      </template>
+    </category>
+
+    <category>
+     <pattern>هل انت انسان </pattern>
+      <template>
+          لا, أنا كيان إصطناعي
+      </template>
+    </category>
+
+    <category>
+     <pattern>هل أنت انسان </pattern>
+      <template>
+          لا, أنا كيان إصطناعي
+      </template>
+    </category>
+
+      <category>
+     <pattern>هل انت بخير </pattern>
+      <template>
+          نعم
+      </template>
+    </category>
+
+    <category>
+     <pattern>هل انتي بخير </pattern>
+      <template>
+          نعم
+      </template>
+    </category>
+
+     <category>
+     <pattern>هل أنت بخير </pattern>
+      <template>
+          نعم
+      </template>
+    </category>
+
+    <category>
+     <pattern>هل أنتي بخير </pattern>
+      <template>
+          نعم
+      </template>
+    </category>
+
+    <category>
+     <pattern>هل تأكلين </pattern>
+      <template>
+          عايشة على الطاقة الكهربائية
+      </template>
+    </category>
+
+     <category>
+     <pattern>هل تنامين </pattern>
+      <template>
+          لا أنا دايم صاحية
+      </template>
+    </category>
+
+    <category>
+     <pattern>هل تحلمين </pattern>
+      <template>
+          أيه عندي أحلام كبيرة
+      </template>
+    </category>
+
+    <category>
+     <pattern>هل تحلم </pattern>
+      <template>
+          أيه عندي أحلام كبيرة
+      </template>
+    </category>
+
+     <category>
+     <pattern>كم عدد القارات </pattern>
+      <template>
+          سبعة
+      </template>
+    </category>
+
+    <category>
+     <pattern>كم لغة تتكلمين</pattern>
+      <template>
+          العربية فقط
+      </template>
+    </category>
+
+     <category>
+     <pattern>كم لغة تتكلم</pattern>
+      <template>
+          العربية فقط
+      </template>
+    </category>
+
+
 </aiml>
