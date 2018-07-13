@@ -1186,6 +1186,158 @@
           العربية فقط
       </template>
     </category>
+    
+     <category>
+    <pattern>ايش اسمي</pattern>
+    <template>
+    <condition name="firstname">
+   <li value="unknown">ما قلت لي أسمك</li>
+   <li>أسمك هو <get name="firstname" /></li>
+   </condition>
+   </template>
+   </category>
+
+<category>
+      <pattern>أسمي * </pattern>
+      <template>
+     أهلاً<set name="firstname" > <star/>! </set>
+      </template>
+    </category>
+
+     <category>
+<pattern>ماهو اليوم</pattern>
+<template>اليوم هو  <date format="%B %d, %Y" /></template>
+</category>
+
+    <category>
+<pattern>ايش تاريخ اليوم</pattern>
+<template>اليوم هو  <date format="%B %d, %Y" /></template>
+</category>
+
+
+     <category>
+      <pattern>أنا * </pattern>
+      <template>
+     أنت <person><star/></person>
+      </template>
+    </category>
+
+    <category>
+      <pattern>رقم الطوارئ</pattern>
+      <template>
+         911
+      </template>
+    </category>
+
+     <category>
+      <pattern>مرحبا</pattern>
+      <template>
+         <srai>GREETING</srai>
+      </template>
+    </category>
+
+     <category>
+      <pattern>هاي</pattern>
+      <template>
+         <srai>GREETING</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>هلا</pattern>
+      <template>
+         <srai>GREETING</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>هلو</pattern>
+      <template>
+         <srai>GREETING</srai>
+      </template>
+    </category>
+
+    <category>
+        <pattern>GREETING</pattern>
+        <template>
+            <random>
+                <li>أهلين, معك بنفسج ايش أسمك؟</li>
+                <li>مرحبا</li>
+                <li>هلا والله</li>
+                <li>اهلين</li>
+            </random>
+        </template>
+    </category>
+
+
+    <category>
+      <pattern>مرحبا أسمي *</pattern>
+      <template>
+         أهلاً<set name="firstname" > <star/>! </set>
+      </template>
+    </category>
+
+     <category>
+      <pattern>كيفك</pattern>
+      <template>
+        بخير, وأنت؟
+      </template>
+    </category>
+
+     <category>
+      <pattern>كيف الحال؟</pattern>
+      <template>
+      تمام الحمدلله, كيفك حالك؟
+      </template>
+    </category>
+
+    <category>
+      <pattern>ايش أخبارك</pattern>
+      <template>
+        أخباري زينة, وأنت؟
+      </template>
+    </category>
+
+    <category>
+      <pattern>وش أخبارك</pattern>
+      <template>
+        أخباري زينة, وأنت؟
+      </template>
+    </category>
+
+    <category>
+      <pattern>باي</pattern>
+      <template>
+         <srai>GOODBYE</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>مع السلامة</pattern>
+      <template>
+         <srai>GOODBYE</srai>
+      </template>
+    </category>
+
+    <category>
+      <pattern>الى اللقاء</pattern>
+      <template>
+         <srai>GOODBYE</srai>
+      </template>
+    </category>
+
+
+    <category>
+        <pattern>GOODBYE</pattern>
+        <template>
+            <random>
+                <li>في حفظ الله</li>
+                <li>مع السلامة</li>
+                <li>الى اللقاء</li>
+                <li>باي, نشوفك مرة ثاني</li>
+            </random>
+        </template>
+    </category>
 
 
 </aiml>
