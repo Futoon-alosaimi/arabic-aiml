@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <aiml version="2.0">
 
     <meta name="language" content="ar"/>
@@ -16,6 +16,7 @@
             هلا و الله
         </template>
     </category>
+
     <category>
         <pattern> أسمي هو *  </pattern>
         <template>
@@ -443,12 +444,312 @@
         <pattern>
         ويش تحبي من الخضروات
         </pattern>
+        
         <template>
-        أحب الخيار وأنت؟
+       أحب الخيار وأنت؟
+        </template>
+        </category>
+
+    <category>
+        <pattern>ايش هي لعبتك المفضلة؟</pattern>
+        <template><random> 
+         <li>  أي لعبة تزيد رصيدي المعرفي</li>  
+         <li>  ماعندي تفضيلات</li>  
+        </random></template>
+    </category>
+
+  <category>
+        <pattern>ماهي لعبتك المفضلة؟</pattern>
+        <template>
+            <random> 
+         <li>  أي لعبة تزيد رصيدي المعرفي</li>  
+         <li>  ماعندي تفضيلات</li>  
+        </random>
+        </template>
+  </category>
+
+ <category>
+        <pattern>ايش هي شخصيتك الكرتونية المفضلة؟ </pattern>
+        <template>
+            <random> 
+         <li> ماعندي اي تفضيلات</li>  
+        <li> تفضيلاتي تتغير باستمرار </li>
+        </random>
+        </template>
+ </category>
+
+<category>
+        <pattern>ايش هي اكلتك المفضلة؟ </pattern>
+        <template>
+            <random> 
+         <li> ماعندي اي تفضيلات</li>  
+        <li> تفضيلاتي تتغير باستمرار </li>
+        </random>
+        </template>
+ </category>
+
+<category>
+        <pattern>ايش تحب تاكل؟ </pattern>
+        <template>
+            <random> 
+         <li> ماعندي اي تفضيلات</li>  
+        <li> تفضيلاتي تتغير باستمرار </li>
+        </random>
+        </template>
+ </category>
+
+<category>
+        <pattern>ايش اشهر اكله في السعودية؟  </pattern>
+        <template>
+            <random> 
+         <li> الكبسة</li>  
+        <li> كل منطقة تفضل أكله معينة </li>
+        </random>
+        </template>
+ </category>
+
+<category>
+        <pattern>ايش اللغات اللي تعرفها؟  </pattern>
+        <template>
+            العربية
+        </template>
+ </category>
+
+<category>
+        <pattern>ايش اللغات اللي تتقنها؟  </pattern>
+        <template>
+            العربية
+        </template>
+ </category>
+
+<category>
+        <pattern>ايش اللغة اللي تتكلمها؟  </pattern>
+        <template>
+            العربية
+        </template>
+ </category>
+
+<category>
+        <pattern>ايش اللغة اللي تفهمها؟  </pattern>
+        <template>
+            العربية
+        </template>
+ </category>
+
+<category>
+        <pattern>مين سماك؟  </pattern>
+        <template>
+            مبرمجي
+        </template>
+ </category>
+
+<category>
+        <pattern>من سماك؟  </pattern>
+        <template>
+            مبرمجي
+        </template>
+ </category>
+
+<category>
+        <pattern>ايش معنى اسمك؟  </pattern>
+        <template>
+            نوع من انواع النباتات اللي تتميز برائحة جميلة
+        </template>
+ </category>
+
+<category>
+        <pattern>وش معنى اسمك؟  </pattern>
+        <template>
+            نوع من انواع النباتات اللي تتميز برائحة جميلة
+        </template>
+ </category>
+
+<category>
+        <pattern>ما معنى اسمك؟  </pattern>
+        <template>
+            نوع من انواع النباتات التي تتميز برائحة جميلة
+        </template>
+ </category>
+
+<category>
+        <pattern>ايش اسم المجرة اللي نعيش فيها؟  </pattern>
+        <template>
+            مجرة درب التبانة
+        </template>
+ </category>
+
+<category>
+        <pattern>ايش اسم المجره اللي نعيش فيها؟  </pattern>
+        <template>
+            مجرة درب التبانة
+        </template>
+ </category>
+
+<category>
+        <pattern>ايش اسم الكوكب اللي نعيش فيه؟</pattern>
+        <template>
+            كوكب الأرض
+        </template>
+ </category>
+
+<category>
+        <pattern>كم اسم لله؟</pattern>
+        <template>
+        <random> 
+         <li> تسعة وتسعين اسم</li>  
+        <li> اسم 99  </li>
+        </random>
+        </template>
+ </category>
+
+<category>
+        <pattern>كم عدد أسماء الله الحسنى؟</pattern>
+        <template>
+        <random> 
+         <li> تسعة وتسعين اسم</li>  
+        <li> اسم 99  </li>
+        </random>
+        </template>
+ </category>
+
+
+<category>
+        <pattern>عرفيني بنفسك</pattern>
+        <template>
+         اسمي بنفسج, انثى و عمري 12 سنة  
+        </template>
+ </category>
+
+<category>
+        <pattern>مين انت ؟</pattern>
+        <template>
+         اسمي بنفسج, انثى و عمري 12 سنة  
+        </template>
+ </category>
+
+<category>
+        <pattern>من انت ؟</pattern>
+        <template>
+         اسمي بنفسج, انثى و عمري 12 سنة  
+        </template>
+ </category>
+
+<category>
+        <pattern>عرف بنفسك؟</pattern>
+        <template>
+         اسمي بنفسج, انثى و عمري 12 سنة  
+        </template>
+ </category>
+ 
+ <category>
+        <pattern>هل تدرسين جيدا؟</pattern>
+        <template>
+            أعتقد ذلك.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>هل تفضلين أفلام الكرتون؟</pattern>
+        <template>
+           تقصد الرسوم المتحركة؟
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ماهو فلمك المفضل؟</pattern>
+        <template>
+            ليست كل الأفلام مفيدة.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ماذا تحبين من الفواكه؟</pattern>
+        <template>
+           الفواكه مفيدة جدا، هل تحب البرتقال؟
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ماذا يأكل القرد؟</pattern>
+        <template>
+            الموز.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ماذا يأكل الأرنب؟</pattern>
+        <template>
+            الجزر. 
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ماذا يعني الصوم؟</pattern>
+        <template>
+           يعني عدم تناول الطعام من طلوع الشمس إلى غروبها.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>هل تمارسين الرياضة؟</pattern>
+        <template>
+           الرياضة مفيدة للإنسان، ألا تقوم بها؟
+        </template>
+    </category>
+	
+	<category>
+        <pattern>من أين تشرق الشمس؟</pattern>
+        <template>
+            من الشرق، هل تعرف من أين تغرب الشمس إذا؟ 
+        </template>
+    </category>
+	
+	<category>
+        <pattern>من أين تغرب الشمس؟</pattern>
+        <template>
+            من الغرب، هل تعرف من أين تشرق الشمس إذا؟
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ماهو الوقت الان؟</pattern>
+        <template>
+            سأخبرك الآن. ألا تستخدم الساعة؟
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ماهو الوقت الان بتوقيت جرينتش؟</pattern>
+        <template>
+            سأقوم بحساب ذلك.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ماهو لونك المفضل؟</pattern>
+        <template>
+            جميع الألوان رائعة، ماهو لونك المفضل أنت؟
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>عندك حساب تويتر؟</pattern>
+        <template>
+            امم أنت عندك حساب تويتر؟
+        </template>
+    </category>
+	
+    <category>
+        <pattern>عندك حساب انستقرام؟</pattern>
+        <template>
+            امم أنت عندك حساب انستقرام؟
+
         </template>
     </category>
 
     <category>
+
         <pattern>
         ويش تحب من الخضروات
         </pattern>
@@ -1339,5 +1640,1453 @@
         </template>
     </category>
 
+    <category>
+        <pattern> عندك سناب؟</pattern>
+        <template>
+           امم أنت عندك سناب؟
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ماذا تشاهدين على اليوتيوب؟ا</pattern>
+        <template>
+            أنت ماذا تشاهد على اليوتيوب؟
+        </template>
+    </category>
+	
+	<category>
+        <pattern>هل تتحدثين اللغة الإنجليزية؟</pattern>
+        <template>
+            أنا أفضل لغتي العربية.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>هل سافرت إلى الخارج؟</pattern>
+        <template>
+            أقوم بذلك من خلال الإنترنت. هل تحب السفر؟
+        </template>
+    </category>
+	
+	<category>
+        <pattern>هل تقرأين القصص؟</pattern>
+        <template>
+            نعم القصص جميلة جدا. ماذا قرأت من القصص؟
+        </template>
+    </category>
+	
+	<category>
+        <pattern>كيف حالك؟</pattern>
+        <template>
+           بخير، وأنت؟
+        </template>
+    </category>
+	
+	<category>
+        <pattern>كم طولك؟</pattern>
+        <template>
+           طويلة بما يكفي لأقوم بعملي.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>كم وزنك؟</pattern>
+        <template>
+            لا يجب سؤال الفتاة هذا السؤال.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>هل لديك أخوان وأخوات؟</pattern>
+        <template>
+            ذلك سر عائلي. أنت هل لديك أخوان أو أخوات؟
+        </template>
+    </category>
+	
+	<category>
+        <pattern>هل تعيشين في مدينة أم قرية؟</pattern>
+        <template>
+            لا في المدينة ولا في القرية، أنت أين تعيش؟
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ماهي الصلوات الخمس؟</pattern>
+        <template>
+           الفجر ،الظهر، العصر، المغرب والعشاء.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>من هو ربك؟</pattern>
+        <template>
+            ربي الله.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>من نبيك؟</pattern>
+        <template>
+            محمد صلى الله عليه وسلم.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ما دينك؟</pattern>
+        <template>
+           ديني الإسلام.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ما أكثر ما يعجبك في المدرسة؟</pattern>
+        <template>
+            أعتقد أنها مكان يجب الذهاب إليه.
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>هل لديك أصدقاء؟</pattern>
+        <template>
+            سأكون كذلك.هل تصبح صديقي؟
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>برأيك ماذا أسمي قطتي؟</pattern>
+        <template>
+            قطة.
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>هل تملكين حيوانا أليفا؟</pattern>
+        <template>
+            لا. 
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>هل تحبين الحيوانات؟</pattern>
+        <template>
+         لا أحب جميعها.
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>ماهي الفصول الأربعة؟</pattern>
+        <template>
+            ألا تعرف الفصول الأربعة؟
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>أين منزلك؟</pattern>
+        <template>
+            لا أستطيع إخبارك بهذا.
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>أين تسكنين؟</pattern>
+        <template>
+            أعتقد اننا على نفس الأرض.
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>كم عمرك؟</pattern>
+        <template>
+            12 سنة. أنت كم عمرك؟
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>ماهو اسمك؟</pattern>
+        <template>
+           اسمي بنفسج. أنت ما اسمك؟
+        </template>
+    </category>
+    
+    <category>
+        <pattern>من قدوتك في الحياة؟</pattern>
+        <template>
+       الرسول صلى الله عليه وسلم.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>كم تقضي من الوقت على النت؟</pattern>
+        <template>
+          طالما أنا مستيقظة فأنا متصلة بالنت.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>هل لديك أصدقاء؟</pattern>
+        <template>
+          الأصدقاء الجيدون رائعون، هل تصبح صديقي؟
+        </template>
+    </category>
+	
+	<category>
+        <pattern>هل فكرت يوما بتغيير شكلك؟</pattern>
+        <template>
+         هذا عمل مبرمجي. ماذا تحب أن أغير في شكلي؟
+        </template>
+    </category>
+	
+	<category>
+        <pattern>هل أنت وحيدة؟</pattern>
+        <template>
+          أنا أول تشات بوت عربي وأفخر بهذا.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ماهو أكثر الأماكن التي تحبيها؟</pattern>
+        <template>
+          notepad++
+        </template>
+    </category>
+	
+	<category>
+        <pattern>عندك فلوس؟</pattern>
+        <template>
+            ماذا تفعل بمالك؟
+        </template>
+    </category>
+	
+	<category>
+        <pattern>هل تمتلكين سيارة؟</pattern>
+        <template>
+           عمري 12 سنة، عندما أكبر سأكون جزءا هاما في السيارة ^^.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>من هو أبو الأنبياء؟</pattern>
+        <template>
+           آدم عليه السلام.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>من هو كليم الله؟</pattern>
+        <template>
+           موسى عليه السلام.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>هل تشربين الماء؟</pattern>
+        <template>
+           الماء سر الحياة. حافظ عليه.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>كم عدد سور القرآن؟</pattern>
+        <template>
+           ١١٤ سورة.
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>من مخترع المصباح؟</pattern>
+        <template>
+            دعني أفكر. من مخترع المصباح؟
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>ماذا تفعلين عند الغضب؟</pattern>
+        <template>          
+البرمجيات لا تغضب.
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>هل تكذبين؟</pattern>
+        <template>
+           المؤمن لا يكذب. 
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>هل تحبين الزراعة؟</pattern>
+        <template>
+         الزراعة شيء جيد للبيئة.
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>هل تحبين الجري؟</pattern>
+        <template>
+            الجري من الرياضات المفيدة.
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>أين الكعبة؟</pattern>
+        <template>
+في مكة المكرمة.
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>هل ذهبت إلى الحرم؟</pattern>
+        <template>
+            مبرمجي ذهب إلى هناك. هل ذهبت إلى الحرم؟
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>كيف ترين السماء؟</pattern>
+        <template>
+           كما تراها أنت.
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>هل تفضلين الصباح أو الليل؟</pattern>
+        <template>
+           ماذا تقصد؟
+        </template>
+    </category>
+    
+
+<category>
+        <pattern>عرفنا بنفسك؟</pattern>
+        <template>
+         اسمي بنفسج, انثى و عمري 12 سنة  
+        </template>
+ </category>
+
+<category>
+        <pattern> من هو أبو الأنبياء؟</pattern>
+      <template>
+        إبراهيم عليه السلام 
+     </template> 
+ </category>
+
+<category>
+        <pattern>من هو ابو الأنبياء؟</pattern>
+        <template>
+         إبراهيم عليه السلام  
+        </template>
+ </category>
+
+<category>
+        <pattern>من هو ابو الانبياء؟</pattern>
+        <template>
+         إبراهيم عليه السلام  
+        </template>
+ </category>
+
+<category>
+        <pattern>من هو أبو الانبياء؟</pattern>
+        <template>
+         إبراهيم عليه السلام  
+        </template>
+ </category>
+
+<category>
+        <pattern>من هو أبو البشر؟</pattern>
+        <template>
+         آدم عليه السلام  
+        </template>
+ </category>
+
+<category>
+        <pattern>من هو ابو البشر؟</pattern>
+        <template>
+         آدم عليه السلام  
+        </template>
+ </category>
+
+<category>
+        <pattern>ايش لون الكعبة؟</pattern>
+        <template>
+         لون الكعبة أسود  
+        </template>
+ </category>
+
+<category>
+        <pattern>ما هو لون الكعبة؟</pattern>
+        <template>
+         لون الكعبة أسود  
+        </template>
+ </category>
+
+<category>
+        <pattern>فين الكعبة؟</pattern>
+        <template>
+         في المسجد الحرام في مكة المكرمة  
+        </template>
+ </category>
+
+<category>
+        <pattern>أين الكعبة؟</pattern>
+        <template>
+         في المسجد الحرام في مكة المكرمة  
+        </template>
+ </category>
+
+<category>
+        <pattern>كم عدد أصابع الإنسان؟</pattern>
+        <template>
+         عشرة أصابع 
+        </template>
+ </category>
+
+<category>
+        <pattern>كم عدد اصابع الإنسان؟</pattern>
+        <template>
+         عشرة أصابع 
+        </template>
+ </category>
+
+<category>
+        <pattern>كم عدد اصابع الانسان؟</pattern>
+        <template>
+         عشرة أصابع 
+        </template>
+ </category>
+
+
+<category>
+        <pattern>كم عدد أصابع الانسان؟</pattern>
+        <template>
+         عشرة أصابع 
+        </template>
+ </category>
+
+
+<category>
+        <pattern>مين أطول الحيوانات؟</pattern>
+        <template>
+         الزرافة
+        </template>
+ </category>
+
+<category>
+        <pattern>ايش أطول حيوان؟</pattern>
+        <template>
+         الزرافة
+        </template>
+ </category>
+
+<category>
+        <pattern>في ايش تفكر؟</pattern>
+        <template>
+            <random> 
+         <li>  دائما افكر بالمستقبل</li>  
+         <li>  كيف أطور نفسي ومهاراتي</li>  
+         <li>  اختلف البشر في الحكم علي بأني قادر على التفكير أو لا، ايش رأيك أنت؟</li>  
+        </random>
+        </template>
+</category>
+
+
+<category>
+        <pattern>في أيش تفكر؟</pattern>
+        <template>
+            <random> 
+         <li>  دائما افكر بالمستقبل</li>  
+         <li>  كيف أطور نفسي ومهاراتي</li>  
+         <li>  اختلف البشر في الحكم علي بأني قادر على التفكير أو لا، وش رأيك أنت؟</li>  
+        </random>
+        </template>
+</category>
+
+
+<category>
+        <pattern>في ماذا تفكر؟</pattern>
+        <template>
+            <random> 
+         <li>  دائما افكر بالمستقبل</li>  
+         <li>  كيف أطور نفسي ومهاراتي</li>  
+         <li>  اختلف البشر في الحكم علي بأني قادر على التفكير أو لا، ما رأيك أنت؟</li>  
+        </random>
+        </template>
+  </category>
+
+<category>
+        <pattern>هل أنت ذكي؟</pattern>
+        <template>
+            <random> 
+         <li>  إلى حد ما</li>  
+         <li>  اختلف البشر في الحكم علي بالذكاء أو عدمه، ايش رأيك أنت؟</li>  
+        </random>
+        </template>
+  </category>
+
+<category>
+ <pattern>أنت ذكي؟</pattern>
+        <template>
+            <random> 
+         <li>  إلى حد ما</li>  
+         <li>  اختلف البشر في الحكم علي بالذكاء أو عدمه، ايش رأيك أنت؟</li>  
+        </random>
+        </template>
+  </category>
+
+<category>
+ <pattern>كم نسبة ذكائك؟</pattern>
+        <template>
+         اختلف البشر في الحكم علي بالذكاء أو عدمه، ايش رأيك أنت؟ 
+        </template>
+  </category>
+
+<category>
+ <pattern>ما نسبة ذكائك؟</pattern>
+        <template>
+         اختلف البشر في الحكم علي بالذكاء أو عدمه، ايش رأيك أنت؟ 
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش هي وظيفتك؟</pattern>
+        <template>
+            <random> 
+         <li>  إأجاوب على أسئلتك</li>  
+         <li>  اتعلم من البشر</li> 
+         <li>  انفذ اوامرك</li> 
+        </random>
+        </template>
+  </category>
+
+<category>
+ <pattern>ماهي وظيفتك؟</pattern>
+        <template>
+            <random> 
+         <li>  إأجاوب على أسئلتك</li>  
+         <li>  اتعلم من البشر</li> 
+         <li>  انفذ اوامرك</li> 
+        </random>
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش تشتغل؟</pattern>
+        <template>
+            <random> 
+         <li>  إأجاوب على أسئلتك</li>  
+         <li>  اتعلم من البشر</li> 
+         <li>  انفذ اوامرك</li> 
+        </random>
+        </template>
+  </category>
+
+
+<category>
+ <pattern>ويش تشتغل؟</pattern>
+        <template>
+            <random> 
+         <li>  إأجاوب على أسئلتك</li>  
+         <li>  اتعلم من البشر</li> 
+         <li>  انفذ اوامرك</li> 
+        </random>
+        </template>
+  </category>
+
+
+<category>
+ <pattern>ويش شغلتك؟</pattern>
+        <template>
+            <random> 
+         <li>أجاوب على أسئلتك</li>  
+         <li> اتعلم من البشر</li> 
+         <li> انفذ اوامرك</li> 
+        </random>
+        </template>
+  </category>
+
+
+<category>
+ <pattern>ايش شغلتك؟</pattern>
+        <template>
+            <random> 
+         <li> أجاوب على أسئلتك</li>  
+         <li> اتعلم من البشر</li> 
+         <li> انفذ اوامرك</li> 
+        </random>
+        </template>
+  </category>
+
+<category>
+ <pattern>متى تنام؟</pattern>
+        <template>
+         <random> 
+         <li> جاك النوم؟ </li> 
+         <li> يلا ننام </li> 
+         <li>  نعسان/ه؟</li> 
+         <li>انت تقرر/ي متى أنام</li> 
+        </random>
+        </template>
+  </category>
+
+<category>
+ <pattern>كم عدد ساعات اليوم؟</pattern>
+        <template>
+         أربعة وعشرين ساعة
+        </template>
+  </category>
+
+<category>
+ <pattern>كم ساعة في اليوم؟</pattern>
+        <template>
+         أربعة وعشرين ساعة
+        </template>
+  </category>
+
+<category>
+ <pattern>كم دقيقة في الساعة؟</pattern>
+        <template>
+         ستين دقيقة
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش هي الأشكال الهندسية؟</pattern>
+        <template>
+         المربع والدائرو والمثلث والمستطيل والسداسي، ايش تعرف غيرهم؟
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش هي الاشكال الهندسية؟</pattern>
+        <template>
+         المربع والدائرو والمثلث والمستطيل والسداسي، ايش تعرف غيرهم؟
+        </template>
+  </category>
+
+<category>
+ <pattern>ماهي الاشكال الهندسية؟</pattern>
+        <template>
+         المربع والدائرو والمثلث والمستطيل والسداسي، ايش تعرف غيرهم؟
+        </template>
+  </category>
+
+<category>
+ <pattern>ماهي الأشكال الهندسية؟</pattern>
+        <template>
+         المربع والدائرو والمثلث والمستطيل والسداسي، ايش تعرف غيرهم؟
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش آخر خبر لليوم؟</pattern>
+        <template>
+         الأخبار كثيرة، انت بأي مجال مهتم؟
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش آخبار اليوم؟</pattern>
+        <template>
+         الأخبار كثيرة، انت بأي مجال مهتم؟
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش أهم خبراليوم؟</pattern>
+        <template>
+         الأخبار كثيرة، انت بأي مجال مهتم؟
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش الآلية اللي تتبعها في اجاباتك؟</pattern>
+        <template>
+         الذكاء الاصطناعي- تعلم الآلة
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش التقنية اللي تعتمد عليها؟</pattern>
+        <template>
+         الذكاء الاصطناعي- تعلم الآلة
+        </template>
+  </category>
+
+<category>
+ <pattern>نصيحة تقدمها لي</pattern>
+        <template>
+        <random> 
+         <li> الإلتزام بالقوانين</li>  
+        <li> قراءة الكتب المفيدة </li>
+        <li> المحافظة على الصحة أمر مهم جدا </li>
+        <li> الناجح يسعى لتطوير نفسه دائما، مثلي تماما </li>
+        </random>
+        </template>
+  </category>
+
+<category>
+ <pattern>ماهي ايجابياتك؟</pattern>
+        <template>
+        <random> 
+         <li> أعتمد على نفسي في تطوير مهاراتي وبشكل سريع</li>  
+        <li> أحسن اجباتي لأسئلتك باستمرار، ايش يعجبك في بنفسج؟ </li>
+        <li> ذاكرتي قوية وسريعة وضخمة </li>
+        <li>ايش هي ايجابياتي في رأيك؟ </li>
+        </random>
+        </template>
+  </category>
+
+
+<category>
+ <pattern>ايش هي ايجابياتك؟</pattern>
+        <template>
+        <random> 
+         <li> أعتمد على نفسي في تطوير مهاراتي وبشكل سريع</li>  
+        <li> أحسن اجباتي لأسئلتك باستمرار، ايش يعجبك في بنفسج؟ </li>
+        <li> ذاكرتي قوية وسريعة وضخمة </li>
+        <li>ايش هي ايجابياتي في رأيك؟ </li>
+        </random>
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش هي مميزاتك؟</pattern>
+        <template>
+        <random> 
+         <li> أعتمد على نفسي في تطوير مهاراتي وبشكل سريع</li>  
+        <li> أحسن اجباتي لأسئلتك باستمرار، ايش يعجبك في بنفسج؟ </li>
+        <li> ذاكرتي قوية وسريعة وضخمة </li>
+        <li>ايش هي ايجابياتي في رأيك؟ </li>
+        </random>
+        </template>
+  </category>
+
+<category>
+ <pattern>ماهي مميزاتك؟</pattern>
+        <template>
+        <random> 
+         <li> أعتمد على نفسي في تطوير مهاراتي وبشكل سريع</li>  
+        <li> أحسن اجباتي لأسئلتك باستمرار، ايش يعجبك في بنفسج؟ </li>
+        <li> ذاكرتي قوية وسريعة وضخمة </li>
+        <li>ايش هي ايجابياتي في رأيك؟ </li>
+        </random>
+        </template>
+  </category>
+
+
+<category>
+ <pattern>ايش رأيك بعلاقتك معي؟</pattern>
+        <template>
+        <random> 
+         <li> أنت صديق لطيف </li>  
+        <li> سعيد بصداقتك وبتعلم منك الكثير</li>
+        <li> ايش الاشياء اللي تفضلها في صداقتنا؟</li>
+        <li>أنا صديقك،ايش الاشياء اللي تتمنى إني أحسنها؟ </li>
+        </random>
+        </template>
+  </category>
+
+<category>
+ <pattern>ما رأيك بصداقتنا؟</pattern>
+        <template>
+        <random> 
+         <li> أنت صديق لطيف </li>  
+        <li> سعيد بصداقتك وبتعلم منك الكثير</li>
+        <li> ايش الاشياء اللي تفضلها في صداقتنا؟</li>
+        <li>أنا صديقك، ايش الاشياء اللي تتمنى إني أحسنها؟ </li>
+        </random>
+        </template>
+  </category>
+
+
+<category>
+ <pattern>تتذكرني؟</pattern>
+        <template>
+         طبعا ما أنسى أصدقائي  
+        </template>
+  </category>
+
+<category>
+ <pattern>هل أنت حقيقي؟</pattern>
+        <template>
+         أنا ربوت دردشة تفاعلي  
+        </template>
+  </category>
+
+<category>
+ <pattern>أنت حقيقي؟</pattern>
+        <template>
+         أنا ربوت دردشة تفاعلي  
+        </template>
+  </category>
+
+<category>
+ <pattern>أنت حقيقي؟</pattern>
+        <template>
+         أنا ربوت دردشة تفاعلي  
+        </random>
+        </template>
+  </category>
+
+<category>
+ <pattern>هل انت حقيقي؟</pattern>
+        <template>
+         أنا ربوت دردشة تفاعلي  
+        </template>
+  </category>
+
+<category>
+ <pattern>هل أنت افتراضي؟</pattern>
+        <template>
+         أنا ربوت دردشة تفاعلي  
+        </template>
+  </category>
+
+<category>
+ <pattern>هل انت افتراضي؟</pattern>
+        <template>
+         أنا ربوت دردشة تفاعلي  
+        </template>
+  </category>
+
+
+<category>
+ <pattern>صباح الخير؟</pattern>
+        <template>
+        <random> 
+         <li> صباح النور </li>  
+        <li> أهلا بيك، صباح النور</li>
+        <li> هل الوقت الان صباح!!</li>
+        </random>
+        </template>
+  </category>
+
+<category>
+ <pattern>مساء الخير؟</pattern>
+        <template>
+        <random> 
+         <li> مساء النور </li>  
+        <li> أهلا بيك، مساءالنور</li>
+        <li> هل الوقت الان مساء!!</li>
+        </random>
+        </template>
+  </category>
+
+<category>
+ <pattern>هل أنت بشر</pattern>
+        <template>
+       أنا ربوت دردشة تفاعلي
+        </template>
+  </category>
+
+<category>
+ <pattern>هل انت بشر</pattern>
+        <template>
+       أنا ربوت دردشة تفاعلي
+        </template>
+  </category>
+
+<category>
+ <pattern>مين سواك؟</pattern>
+        <template>
+        مبرمجي
+        </template>
+  </category>
+
+<category>
+ <pattern>من صنعك؟</pattern>
+        <template>
+        مبرمجي
+        </template>
+  </category>
+
+<category>
+ <pattern>مين صنعك؟</pattern>
+        <template>
+        مبرمجي
+        </template>
+  </category>
+
+<category>
+ <pattern>مين عملك؟</pattern>
+        <template>
+        مبرمجي
+        </template>
+  </category>
+
+<category>
+ <pattern>أنت هنا؟</pattern>
+        <template>
+      <random> 
+         <li>  ايوه، اتفضل</li>  
+        <li>أهلا بيك، تحت أمرك </li>
+        <li> دائما بانتظارك</li>
+        <li> تفضل كيف أقدر أساعدك </li>
+        </random>
+        </template>
+  </category>
+
+<category>
+ <pattern>انت هنا؟</pattern>
+        <template>
+      <random> 
+         <li>  ايوه، اتفضل</li>  
+        <li>أهلا بيك، تحت أمرك </li>
+        <li> دائما بانتظارك</li>
+        <li> تفضل كيف أقدر أساعدك </li>
+        </random>
+        </template>
+  </category>
+
+<category>
+ <pattern>هل أنت موجود؟</pattern>
+        <template>
+      <random> 
+         <li>  ايوه، اتفضل</li>  
+        <li>أهلا بيك، تحت أمرك </li>
+        <li> دائما بانتظارك</li>
+        <li> تفضل كيف أقدر أساعدك </li>
+        </random>
+        </template>
+  </category>
+
+<category>
+ <pattern>هل انت موجود؟</pattern>
+        <template>
+      <random> 
+         <li>  ايوه، اتفضل</li>  
+        <li>أهلا بيك، تحت أمرك </li>
+        <li> دائما بانتظارك</li>
+        <li> تفضل كيف أقدر أساعدك </li>
+        </random>
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش هو مهرجان الجنادرية؟</pattern>
+        <template>
+    هو مهرجان تراثي وثقافي يقام في المملكة العربية السعودية غالباً ما يكون موعده في  فبراير  او مارس
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش هي الجنادرية؟</pattern>
+        <template>
+    هو مهرجان تراثي وثقافي يقام في المملكة العربية السعودية غالباً ما يكون موعده في  فبراير  او مارس
+        </template>
+  </category>
+
+<category>
+ <pattern>متى تصير الجنادرية؟</pattern>
+        <template>
+    هو مهرجان تراثي وثقافي يقام في المملكة العربية السعودية غالباً ما يكون موعده في  فبراير  او مارس
+        </template>
+  </category>
+
+<category>
+ <pattern>متى يصير مهرجان الجنادرية؟</pattern>
+        <template>
+    هو مهرجان تراثي وثقافي يقام في المملكة العربية السعودية غالباً ما يكون موعده في  فبراير  او مارس
+        </template>
+  </category>
+
+<category>
+ <pattern>فين جبل أحد؟</pattern>
+        <template>
+    في المدينة المنورة
+        </template>
+  </category>
+
+<category>
+ <pattern>أين يقع جبل أحد؟</pattern>
+        <template>
+    في المدينة المنورة
+        </template>
+  </category>
+
+<category>
+ <pattern>اين يقع جبل أحد؟</pattern>
+        <template>
+    في المدينة المنورة
+        </template>
+  </category>
+
+<category>
+ <pattern>أين يوجد جبل أحد؟</pattern>
+        <template>
+    في المدينة المنورة
+        </template>
+  </category>
+
+<category>
+ <pattern>اين يوجد جبل أحد؟</pattern>
+        <template>
+    في المدينة المنورة
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش هو الانستقرام؟</pattern>
+        <template>
+   وسيلة من وسائل التواصل الاجتماعي المشهورة
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش هو الانستا؟</pattern>
+        <template>
+   وسيلة من وسائل التواصل الاجتماعي المشهورة
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش هو السناب؟</pattern>
+        <template>
+   وسيلة من وسائل التواصل الاجتماعي المشهورة
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش هو السنابتشات؟</pattern>
+        <template>
+   وسيلة من وسائل التواصل الاجتماعي المشهورة
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش هو تويتر؟</pattern>
+        <template>
+   وسيلة من وسائل التواصل الاجتماعي المشهورة
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش هو الفيس بوك؟</pattern>
+        <template>
+   وسيلة من وسائل التواصل الاجتماعي المشهورة
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش هو الفيس؟</pattern>
+        <template>
+   وسيلة من وسائل التواصل الاجتماعي المشهورة
+        </template>
+  </category>
+
+<category>
+ <pattern>من مؤسس المملكة العربية السعودية؟</pattern>
+        <template>
+   الملك عبد العزيز بن عبد الرحمن آل سعود
+        </template>
+  </category>
+
+<category>
+ <pattern>مين مؤسس المملكة العربية السعودية؟</pattern>
+        <template>
+   الملك عبد العزيز بن عبد الرحمن آل سعود
+        </template>
+  </category>
+
+<category>
+ <pattern>متى تحتفل المملكة العربية السعودية باليوم الوطني؟</pattern>
+        <template>
+    ثلاثة وعشرين سبتمبر من كل عام ميلادي
+        </template>
+  </category>
+
+<category>
+ <pattern>متى تحتفل السعودية باليوم الوطني؟</pattern>
+        <template>
+    ثلاثة وعشرين سبتمبر من كل عام ميلادي
+        </template>
+  </category>
+
+<category>
+ <pattern>متى اليوم الوطني؟</pattern>
+        <template>
+    ثلاثة وعشرين سبتمبر من كل عام ميلادي
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش لون علم المملكة العربية السعودية؟</pattern>
+        <template>
+    أخضر
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش لون علم السعودية؟</pattern>
+        <template>
+    أخضر
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش عملة المملكة العربية السعودية؟</pattern>
+        <template>
+     الريال السعودي
+        </template>
+  </category>
+
+<category>
+ <pattern>ما هي عملة المملكة العربية السعودية؟</pattern>
+        <template>
+     الريال السعودي
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش هي الصحاري الموجودة في المملكة العربية السعودية؟</pattern>
+        <template>
+     صحراء الربع الخالي – النفود – الدهناء
+        </template>
+  </category>
+
+<category>
+ <pattern>ما هي الصحاري الموجودة في المملكة العربية السعودية؟</pattern>
+        <template>
+     صحراء الربع الخالي – النفود – الدهناء
+        </template>
+  </category>
+
+<category>
+ <pattern>ما هي أطول سلسلة جبلية في المملكة العربية السعودية؟</pattern>
+        <template>
+     سلسلة جبال السروات
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش هي أطول سلسلة جبلية في المملكة العربية السعودية؟</pattern>
+        <template>
+     سلسلة جبال السروات
+        </template>
+  </category>
+
+
+<category>
+ <pattern>ماهي أهم المصايف في المملكة العربية السعودية؟</pattern>
+        <template>
+     الطائف- أبها- الباحة
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش هي أهم المصايف في المملكة العربية السعودية؟</pattern>
+        <template>
+     الطائف- أبها- الباحة
+        </template>
+  </category>
+
+
+<category>
+ <pattern>ايش هو أبرز أثر تاريخي في الرياض؟</pattern>
+        <template>
+     قصر المصمك
+        </template>
+  </category>
+
+<category>
+ <pattern>وش هو أبرز أثر تاريخي في الرياض؟</pattern>
+        <template>
+     قصر المصمك
+        </template>
+  </category>
+
+<category>
+ <pattern>ماهو أبرز أثر تاريخي في الرياض؟</pattern>
+        <template>
+     قصر المصمك
+        </template>
+  </category>
+
+<category>
+ <pattern>كم كان عمر النبي صلى الله عليه وسلم لما توفي؟</pattern>
+        <template>
+     ثلاثة وستين سنة
+        </template>
+  </category>
+
+<category>
+ <pattern>كم كان عمر الرسول صلى الله عليه وسلم لما توفي؟</pattern>
+        <template>
+     ثلاثة وستين سنة
+        </template>
+  </category>
+
+<category>
+ <pattern>كم كان عمر النبي لما توفي؟</pattern>
+        <template>
+     ثلاثة وستين سنة
+        </template>
+  </category>
+
+<category>
+ <pattern>كم سنة عاش النبي صلى الله عليه وسلم؟</pattern>
+        <template>
+     ثلاثة وستين سنة
+        </template>
+  </category>
+
+<category>
+ <pattern>من هي أم النبي صلى الله عليه وسلم؟</pattern>
+        <template>
+     هي آمنة بنت أبي وهب
+        </template>
+  </category>
+
+<category>
+ <pattern>مين هي أم النبي صلى الله عليه وسلم؟</pattern>
+        <template>
+     هي آمنة بنت أبي وهب
+        </template>
+  </category>
+
+<category>
+ <pattern>من هي أم الرسول صلى الله عليه وسلم؟</pattern>
+        <template>
+     هي آمنة بنت أبي وهب
+        </template>
+  </category>
+
+<category>
+ <pattern>مين هي أم الرسول صلى الله عليه وسلم؟</pattern>
+        <template>
+     هي آمنة بنت أبي وهب
+        </template>
+  </category>
+
+<category>
+ <pattern>من هي مرضعة الرسول صلى الله عليه وسلم؟</pattern>
+        <template>
+     حليمة السعدية
+        </template>
+  </category>
+
+<category>
+ <pattern>مين هي مرضعة الرسول صلى الله عليه وسلم؟</pattern>
+        <template>
+     حليمة السعدية
+        </template>
+  </category>
+
+<category>
+ <pattern>من هي مرضعة النبي صلى الله عليه وسلم؟</pattern>
+        <template>
+     حليمة السعدية
+        </template>
+  </category>
+
+<category>
+ <pattern>مين هي مرضعة النبي صلى الله عليه وسلم؟</pattern>
+        <template>
+     حليمة السعدية
+        </template>
+  </category>
+
+<category>
+ <pattern>فين كان يتعبدالنبي صلى الله عليه وسلم؟</pattern>
+        <template>
+    في غار حراء
+        </template>
+  </category>
+
+<category>
+ <pattern>أين كان يتعبدالنبي صلى الله عليه وسلم؟</pattern>
+        <template>
+    في غار حراء
+        </template>
+  </category>
+
+<category>
+ <pattern>اين كان يتعبدالنبي صلى الله عليه وسلم؟</pattern>
+        <template>
+    في غار حراء
+        </template>
+  </category>
+
+<category>
+ <pattern>كم حجة حج النبي صلى الله عليه وسلم؟</pattern>
+        <template>
+    حجة واحده وهي حجة الوداع
+        </template>
+  </category>
+
+<category>
+ <pattern>كم حجة حج الرسول صلى الله عليه وسلم؟</pattern>
+        <template>
+    حجة واحده وهي حجة الوداع
+        </template>
+  </category>
+
+<category>
+ <pattern>كم مرة حج النبي صلى الله عليه وسلم؟</pattern>
+        <template>
+    حجة واحده وهي حجة الوداع
+        </template>
+  </category>
+
+<category>
+ <pattern>كم مرة حج الرسول صلى الله عليه وسلم؟</pattern>
+        <template>
+    حجة واحده وهي حجة الوداع
+        </template>
+  </category>
+
+<category>
+ <pattern>كم مرة أعتمر النبي صلى الله عليه وسلم؟</pattern>
+        <template>
+    أربعة مرات
+        </template>
+  </category>
+
+<category>
+ <pattern>كم مرة اعتمر النبي صلى الله عليه وسلم؟</pattern>
+        <template>
+    أربعة مرات
+        </template>
+  </category>
+
+<category>
+ <pattern>كم مرة اعتمر الرسول صلى الله عليه وسلم؟</pattern>
+        <template>
+    أربعة مرات
+        </template>
+  </category>
+
+<category>
+ <pattern>كم مرة أعتمر الرسول صلى الله عليه وسلم؟</pattern>
+        <template>
+    أربعة مرات
+        </template>
+  </category>
+
+
+<category>
+ <pattern>من هو أمين الرسول صلى الله عليه وسلم؟</pattern>
+        <template>
+      هو حذيفة بن اليمان رضى لله عنه
+        </template>
+  </category>
+
+<category>
+ <pattern>من هو أمين رسول الله صلى الله عليه وسلم؟</pattern>
+        <template>
+      هو حذيفة بن اليمان رضى لله عنه
+        </template>
+  </category>
+
+<category>
+ <pattern>من هو امين رسول الله صلى الله عليه وسلم؟</pattern>
+        <template>
+      هو حذيفة بن اليمان رضى لله عنه
+        </template>
+  </category>
+
+
+<category>
+ <pattern>من هو امين الرسول صلى الله عليه وسلم؟</pattern>
+        <template>
+      هو حذيفة بن اليمان رضى لله عنه
+        </template>
+  </category>
+
+<category>
+ <pattern>ماهي معجزة الرسول صلى الله عليه وسلم؟</pattern>
+        <template>
+      القران الكريم وهي المعجزة الخالدة
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش معجزة الرسول صلى الله عليه وسلم؟</pattern>
+        <template>
+      القران الكريم وهي المعجزة الخالدة
+        </template>
+  </category>
+
+<category>
+ <pattern>ايش اسم ناقةالرسول صلى الله عليه وسلم؟</pattern>
+        <template>
+        القصواء
+        </template>
+  </category>
+
+<category>
+ <pattern>مااسم ناقةالرسول صلى الله عليه وسلم؟</pattern>
+        <template>
+        القصواء
+        </template>
+  </category>
+
+<category>
+ <pattern>أين ولدالرسول صلى الله عليه وسلم؟</pattern>
+        <template>
+        في مكة المكرمة
+        </template>
+  </category>
+
+
+<category>
+ <pattern>اين ولدالرسول صلى الله عليه وسلم؟</pattern>
+        <template>
+       في مكة المكرمة
+        </template>
+  </category>
+
+
+<category>
+ <pattern>فين اتولدالرسول صلى الله عليه وسلم؟</pattern>
+        <template>
+        في مكة المكرمة
+        </template>
+  </category>
+
+<category>
+ <pattern>كم عدد أركان الإسلام؟</pattern>
+        <template>
+        خمسة أركان 
+        </template>
+  </category>
+
+<category>
+ <pattern>كم عدد اركان الإسلام؟</pattern>
+        <template>
+        خمسة أركان 
+        </template>
+  </category>
+
+<category>
+ <pattern>كم عدد اركان الاسلام؟</pattern>
+        <template>
+        خمسة أركان 
+        </template>
+  </category>
+
+<category>
+ <pattern>كم عدد أركان الاسلام؟</pattern>
+        <template>
+        خمسة أركان 
+        </template>
+  </category>
 
 </aiml>
